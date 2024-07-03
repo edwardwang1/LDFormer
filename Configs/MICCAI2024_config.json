@@ -1,0 +1,91 @@
+{
+  "dose": {
+    "in_channels": 1,
+    "num_hiddens": 32,
+    "num_residual_layers": 1,
+    "num_residual_hiddens": 16,
+    "num_embeddings": 96,
+    "embedding_dim": 24,
+    "num_downsample_layers": 3,
+    "commitment_cost": 2,
+    "decay": 0.99,
+    "extra_conv": true,
+    "input_shape": [
+      1,
+      10,
+      10,
+      24
+    ]
+  },
+  "ide": {
+    "in_channels": 1,
+    "num_hiddens": 32,
+    "num_residual_layers": 1,
+    "num_residual_hiddens": 16,
+    "num_embeddings": 96,
+    "embedding_dim": 24,
+    "num_downsample_layers": 3,
+    "commitment_cost": 2,
+    "decay": 0.99,
+    "extra_conv": true,
+    "input_shape": [
+      1,
+      10,
+      10,
+      24
+    ]
+  },
+  "oars": {
+    "in_channels": 8,
+    "num_hiddens": 32,
+    "num_residual_layers": 1,
+    "num_residual_hiddens": 16,
+    "num_embeddings": 96,
+    "embedding_dim": 24,
+    "num_downsample_layers": 3,
+    "commitment_cost": 2,
+    "decay": 0.99,
+    "extra_conv": true,
+    "input_shape": [
+      1,
+      10,
+      10,
+      24
+    ]
+  },
+  "ptv": {
+    "in_channels": 1,
+    "num_hiddens": 32,
+    "num_residual_layers": 1,
+    "num_residual_hiddens": 8,
+    "num_embeddings": 64,
+    "embedding_dim": 16,
+    "num_downsample_layers": 5,
+    "commitment_cost": 2,
+    "decay": 0.99,
+    "extra_conv": true,
+    "input_shape": [
+      1,
+      3,
+      2,
+      2,
+      16
+    ]
+  },
+  "transformer":{
+    "n_layer": 4,
+    "n_head": 2,
+    "n_embd": 128,
+    "vocab_size": 97,
+    "block_size": 370,
+    "dropout": 0,
+    "bias": false
+  },
+    "weight_dir_dict": {
+        "Dose": "2DVQVAEOutput/Weights/Dose96x24EmbeddingRun2Longer/Run1/model_8000.pth",
+        "IDE": "2DVQVAEOutput/Weights/Dose96x24EmbeddingRun2Longer/Run1/model_8000.pth",
+        "OARs": "2DVQVAEOutput/Weights/OAR96x24EmbeddingTrial1Run4Longer/Run1/model_8000.pth",
+        "PTV": "Output/Weights/PTV5L_EC_4p5TrueNonAxial_Trial2/Run5/model_1000.pth",
+        "Transformer": "Output/TransformerOutput/Weights/Transformer2DVersion5_96x24VQVAE_Run2/Run1/model_1000.pth"
+    }
+  }
