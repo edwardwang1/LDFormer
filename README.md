@@ -112,19 +112,10 @@ The implementation of the VQVAE is based on the [official implementation](https:
 
 ## Citation
 
-If you use this repostiory in your work, please cite the Arxiv paper below. This README will be updated once the MICCAI proceeedings have been published.
+If you use this repostiory in your work, please cite: 
 
-Arxiv Paper
 ```
-@misc{wang2024latentspacesenabletransformerbased,
-      title={Latent Spaces Enable Transformer-Based Dose Prediction in Complex Radiotherapy Plans}, 
-      author={Edward Wang and Ryan Au and Pencilla Lang and Sarah A. Mattonen},
-      year={2024},
-      eprint={2407.08650},
-      archivePrefix={arXiv},
-      primaryClass={physics.med-ph},
-      url={https://arxiv.org/abs/2407.08650}, 
-}
+Wang, E., Au, R., Lang, P., Mattonen, S.A. (2024). Latent Spaces Enable Transformer-Based Dose Prediction in Complex Radiotherapy Plans. In: Linguraru, M.G., et al. Medical Image Computing and Computer Assisted Intervention – MICCAI 2024. MICCAI 2024. Lecture Notes in Computer Science, vol 15011. Springer, Cham. https://doi.org/10.1007/978-3-031-72120-5_34}
 ```
 
 
